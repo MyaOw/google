@@ -31,7 +31,6 @@ body {
     vertical-align: middle;
 }
 
-
 .navTab img {
     opacity: 0.5;
 }
@@ -73,6 +72,7 @@ input{
     margin: 25px;
     padding: 0 15px 0 15px;  
     width: 500px;
+    background-color: #fff;
     border: #EBEBEB 1px solid;
     border-radius: 2px;
     height: 44px;
