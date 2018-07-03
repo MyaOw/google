@@ -54,6 +54,7 @@ body {
 #searchForm{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 input{
@@ -70,9 +71,50 @@ input:hover {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
 
+.btn {
+    background-color: #F6F6F6;
+    border: #F6F6F6 2px solid;
+    border-radius: 2px;
+    color: #757575;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.81em;
+    margin: 10px;
+}
 
+.btn:hover { 
+    border: 2px solid #C6C6C6;
+    border-radius: 2px;
+}
 
+#footer {
+    color: rgba(0,0,0,.54);
+    background: #f2f2f2;
+    line-height: 40px;
+    padding-left: 30px;
+}
 
+#footerUp, #footerDown {
+    border-top: 1px solid #e4e4e4;    
+}
+
+#footerDown {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footerUp {
+    font-size: 0.9em;
+}
+
+#footerDown a {
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+    font-size: 0.81em;
+    margin-right: 15px;
+}
 
 
 
